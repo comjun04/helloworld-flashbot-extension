@@ -6,9 +6,13 @@ class HelloWorldExtension extends Extension {
       name: 'helloworld',
       description: 'A simple hello world extension'
     })
+ }
 
+  init() {
     this._logger.log('Hello World to you!')
   }
+
+  destroy() {}
 }
 
 module.exports = HelloWorldExtension
