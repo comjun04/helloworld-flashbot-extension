@@ -1,4 +1,4 @@
-const Extension = require('../../classes/Extension')
+const Extension = require('../../src/structures/Extension')
 
 class HelloWorldExtension extends Extension {
   constructor(client) {
